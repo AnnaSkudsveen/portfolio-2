@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "title": "PE2 – Holidaze",
+      "id": "pe2-holidaze",
+      "description": "This school project at Noroff involved creating a venue booking platform. Users can register, log in/out, search for venues, make bookings, and manage profiles. The site is designed with usability and responsiveness in mind.",
+      "stack": ["React", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
+      "apiIntegration": true,
+      "liveDemo": "https://holidaze-as.netlify.app/"
+    },
+    {
+      "title": "SE2 – Auction House",
+      "id": "se2-auction-house",
+      "description": "This was a semester exam project at Noroff. I built a fully functional auction house platform where users can create listings, place bids, and manage profiles. The site connects to Noroff’s official API to fetch and submit data in real time.",
+      "stack": ["JavaScript", "HTML", "CSS"],
+      "apiIntegration": true,
+      "liveDemo": "https://semester-exam-2-auction-house.netlify.app/"
+    },
+    {
+      "id": "js-frameworks-ca",
+      "title": "JS Frameworks CA – E-commerce Website",
+      "description": "A Noroff course assignment where I developed a simple e-commerce website. Users can browse products, add and remove them from a shopping cart, and submit orders through a static checkout process. The site includes a functional contact form.",
+      "stack": ["React.js", "HTML", "CSS"],
+      "apiIntegration": false,
+      "liveDemo": "https://annaskudsveen-js-frameworks-ca.netlify.app/"
+    },
+    {
+      "id": "ruv-fotball",
+      "title": "Ruv Fotball",
+      "description": "I was contacted by the board to create a simple supporter team webpage. The goal was to showcase images, display static text, and allow users to join the club. I built a clean and responsive single-page application using React, with all content hardcoded due to the lack of API integration.",
+      "stack": ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+      "apiIntegration": false,
+      "liveDemo": "https://ruvfotball.no/"
+    },
+    {
+      "id": "js-arctic-sailing",
+      "title": "JS Arctic Sailing",
+      "description": "This project was built for a small business owner who had a clear idea of the website layout and UI. I developed the site entirely in Visual Studio Code using React, implementing his UX design and ensuring mobile responsiveness. All content is manually added.",
+      "stack": ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+      "apiIntegration": false,
+      "liveDemo": "https://js-arctic.netlify.app/"
+    },
+    {
+      "id": "tranquility",
+      "title": "Tranquility – Bachelor's Thesis",
+      "description": "My bachelor’s thesis at Oslo Metropolitan University (2020) was a clothing collection called 'Tranquility'. Inspired by nature (and the pandemic), it combined luxurious comfort with natural fibers like silk and wool to create a line suitable for elegant relaxation at home.",
+      "year": 2020
+    },
+    {
+      "id": "oslo-mikrospinneri",
+      "title": "Oslo Mitten",
+      "description": "A traditional Selbu mitten design created for Oslo Mikrospinneri. The mitten features a stylized 'O' in the hand to represent Oslo, combining classic Norwegian patterning with modern identity.",
+      "year": 2022
+    },
+    {
+      "id": "perleull",
+      "title": "Perleull",
+      "description": "A part off my job for Oslo Mikrospinneri was to co-create a new yarn called Perleull. This yarn is a blend of Norwegian wool and silk, designed to be soft, warm, and suitable for various knitting projects. It its the yarn used for the Oslo Mitten.",
+      "year": 2022
+    }
+  ]
+}
