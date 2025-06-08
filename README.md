@@ -1,12 +1,56 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based portfolio that showcases individual portfolio projects using dynamic routing and JSON data. Each project includes a title, image, description, tech stack, live demo link(if avaliable), and optional API integration tag.
 
-Currently, two official plugins are available:
+## Features
+- Dynamic routing via react-router-dom using project IDs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive layout with Tailwind CSS
 
-## Expanding the ESLint configuration
+- Live demo button (if available)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Copy Link button to share project URL
+
+- API integration indicator (if applicable)
+
+- Project data sourced from a JSON file
+
+##  Technologies Used
+
+React
+
+React Router
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+JSON for data storage
+
+## Getting Started
+
+Install dependencies:
+
+````bash
+npm install
+````
+
+Run the development server:
+````bash
+npm run dev
+````
+Visit the app:
+
+Navigate to [http://localhost:5173](http://localhost:5173) (or wherever Vite/your dev server runs)
+
+## Notes
+
+- The Copy Link button uses the Clipboard API.
+
+- The project image filename must follow the pattern: project-[id].jpg.
+
+- For best results, ensure consistent image dimensions across projects.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
