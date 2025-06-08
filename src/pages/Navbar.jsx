@@ -5,10 +5,18 @@ function NavBar() {
   const isHomePage = location.pathname === "/" || location.pathname === "";
 
   return (
-    <header className="bg-[#020044] text-white h-[100px] md:h-[200px] flex items-center justify-between px-4">
-      <nav>
-        <h2>Anna Skudsveen</h2>
-        {!isHomePage ? <Link to="/">Home</Link> : ""}
+    <header className="bg-[#213547] text-white h-[60px] md:h-[60px] w-full px-4">
+      <nav className="flex items-center justify-between h-full">
+        <Link to="/">
+          <img src="../../images/Vector.png" alt="" className="h-6 w-auto" />
+        </Link>
+        {!isHomePage ? (
+          <Link to="/" className="text-white">
+            Home
+          </Link>
+        ) : (
+          ""
+        )}
       </nav>
     </header>
   );

@@ -3,59 +3,90 @@
     {
       "title": "PE2 – Holidaze",
       "id": "pe2-holidaze",
-      "description": "This school project at Noroff involved creating a venue booking platform. Users can register, log in/out, search for venues, make bookings, and manage profiles. The site is designed with usability and responsiveness in mind.",
+      "teaserDescription": "This school project at Noroff involved creating a venue booking platform. Users can register, log in/out, search for venues, make bookings, and manage profiles. The site is designed with usability and responsiveness in mind.",
+      "description": "This was a school project created at Noroff. Holidaze is a booking platform built for the final project exam. The site allows users to browse and book holiday venues, log in/out, create listings, and manage profiles. It also features search and filter functionality.",
+      "reflectionsImprovements": [
+        "This project was my first experience using TypeScript. Looking back, choosing to learn a new language during a final exam was ambitious, but incredibly rewarding. It gave me a deeper understanding of type safety and improved my debugging skills.",
+        "There are still improvements I would like to make, including adding JSDoc comments and writing tests for key components.",
+        "I also had styling ideas that I didn’t have time to fully implement, such as enhanced UI elements and accessibility tweaks.",
+        "Despite the challenges, this project felt like a meaningful milestone and a fitting end to my time at Noroff."
+      ],
       "stack": ["React", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
       "apiIntegration": true,
-      "liveDemo": "https://holidaze-as.netlify.app/"
+      "liveDemo": "https://holidaze-as.netlify.app/",
+      "githubRepo": "https://github.com/AnnaSkudsveen/PE2-Holidaze"
     },
     {
       "title": "SE2 – Auction House",
       "id": "se2-auction-house",
-      "description": "This was a semester exam project at Noroff. I built a fully functional auction house platform where users can create listings, place bids, and manage profiles. The site connects to Noroff’s official API to fetch and submit data in real time.",
+      "teaserDescription": "This was a semester exam project at Noroff. I built a fully functional auction house platform where users can create listings, place bids, and manage profiles. The site connects to Noroff’s official API to fetch and submit data in real time.",
+      "description": "An auction platform where users can view and bid on listings, create their own items for auction, and manage personal profiles. The application is connected to Noroff’s provided API and includes real-time updates for listings and bids. During the initial deployment, a type error caused the site to fail in production but not locally. I used part of the exam period to debug this issue, which turned out to be a filename casing mismatch between my local machine and GitHub.",
+      "reflectionsImprovements": [
+        "Fixed deployment issue caused by a filename case mismatch.",
+        "Learned the importance of naming consistency in Git + deployment.",
+        "Helped me understand the importance of testing. And how to make tests."
+      ],
       "stack": ["JavaScript", "HTML", "CSS"],
       "apiIntegration": true,
-      "liveDemo": "https://semester-exam-2-auction-house.netlify.app/"
+      "liveDemo": "https://semester-exam-2-auction-house.netlify.app/",
+      "githubRepo": "https://github.com/AnnaSkudsveen/semester-project-2"
     },
     {
       "id": "js-frameworks-ca",
       "title": "JS Frameworks CA – E-commerce Website",
-      "description": "A Noroff course assignment where I developed a simple e-commerce website. Users can browse products, add and remove them from a shopping cart, and submit orders through a static checkout process. The site includes a functional contact form.",
+      "teaserDescription": "A Noroff course assignment for a simple e-commerce website. Users can browse products, add and remove them from a shopping cart, and submit orders through a static checkout process. The site includes a contact form.",
+      "description": "This was a task given by Noroff. A simple e-commerce web app where users can browse products, add items to the cart, deletes items form cart, view quantities and reviews, and proceed to checkout. The application also includes a contact form.",
+      "reflectionsImprovements": [
+        "Added JSDoc comments to all functions.",
+        "Cleaned unused code and fixed dev environment configs.",
+        "This was my first project using React, and it was mind-blowing to see how quick and intuitive front-end development could be. The component-based structure and real-time feedback made coding feel faster."
+      ],
       "stack": ["React.js", "HTML", "CSS"],
       "apiIntegration": false,
-      "liveDemo": "https://annaskudsveen-js-frameworks-ca.netlify.app/"
+      "liveDemo": "https://annaskudsveen-js-frameworks-ca.netlify.app/",
+      "githubRepo": "https://github.com/AnnaSkudsveen/js-frameworks-ca"
     },
     {
       "id": "ruv-fotball",
       "title": "Ruv Fotball",
-      "description": "I was contacted by the board to create a simple supporter team webpage. The goal was to showcase images, display static text, and allow users to join the club. I built a clean and responsive single-page application using React, with all content hardcoded due to the lack of API integration.",
+      "teaserDescription": "I was contacted by the board to create a simple supporter team webpage. The goal was to showcase images, display static text, and allow users to join the club.",
+      "description": "I was contacted by the board of a football supporter club to create a simple website. Their goal was to showcase images, provide key information for members, and include a page where users could join the supporter group. I built a static website using React, where all content is hard-coded. This choice was made based on the client's need for simplicity and budget limitations. There was no requirement for dynamic content or an external API.",
+      "reflectionsImprovements": [
+        "After the initial delivery, the client requested a few updates, including an image gallery/slider and minor visual adjustments. These improvements are currently in progress.",
+        "This project helped reinforce my skills in delivering a lightweight, efficient static site and iterating based on real user feedback."
+      ],
       "stack": ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
       "apiIntegration": false,
-      "liveDemo": "https://ruvfotball.no/"
+      "liveDemo": "https://ruvfotball.no/",
+      "githubRepo": "https://github.com/AnnaSkudsveen/ruv"
     },
     {
       "id": "js-arctic-sailing",
       "title": "JS Arctic Sailing",
-      "description": "This project was built for a small business owner who had a clear idea of the website layout and UI. I developed the site entirely in Visual Studio Code using React, implementing his UX design and ensuring mobile responsiveness. All content is manually added.",
+      "teaserDescription": "This project was built for a small business owner who had a clear idea of the website layout and UI. I developed the site entirely in Visual Studio Code using React, implementing his UX design and ensuring mobile responsiveness. All content is manually added.",
+      "description": "This was a one-page project created for a sailing business owner who provided his own UX wireframes. The site showcases his services with static information and images, following his vision closely. Everything was built directly in VS Code without any data fetching from an API, due to the project’s scope and client preference.",
+      "reflectionsImprovements": [
+        "Applied client-provided UX.",
+        "Clean, minimal layout tailored by the client.",
+        "Strengthened communication skills by working directly with a client."
+      ],
       "stack": ["React.js", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
       "apiIntegration": false,
-      "liveDemo": "https://js-arctic.netlify.app/"
+      "liveDemo": "https://jsarctic.netlify.app/",
+      "githubRepo": "https://github.com/AnnaSkudsveen/js-arctic"
     },
     {
       "id": "tranquility",
       "title": "Tranquility – Bachelor's Thesis",
-      "description": "My bachelor’s thesis at Oslo Metropolitan University (2020) was a clothing collection called 'Tranquility'. Inspired by nature (and the pandemic), it combined luxurious comfort with natural fibers like silk and wool to create a line suitable for elegant relaxation at home.",
+      "teaserDescription": "My bachelor’s thesis at Oslo Metropolitan University (2020) was a clothing collection called 'Tranquility'. Inspired by nature (and the pandemic), it combined luxurious comfort with natural fibers like silk and wool to create a line suitable for elegant relaxation at home.",
+      "description": "This was my bachelor’s thesis at Oslo Metropolitan University in 2020. The collection was inspired by the sense of calm that comes from being near water and the forest. I focused on natural fibers like silk and wool to create garments that offered both comfort and elegance. The goal was to design pieces that felt enough like lounge wear for lounging at home, yet polished enough to feel put together, what I like to call 'couch glam'. The collection was heavily influenced by the global situation at the time, shaped by the restrictions and atmosphere of the pandemic.",
       "year": 2020
     },
     {
       "id": "oslo-mikrospinneri",
       "title": "Oslo Mitten",
-      "description": "A traditional Selbu mitten design created for Oslo Mikrospinneri. The mitten features a stylized 'O' in the hand to represent Oslo, combining classic Norwegian patterning with modern identity.",
-      "year": 2022
-    },
-    {
-      "id": "perleull",
-      "title": "Perleull",
-      "description": "A part off my job for Oslo Mikrospinneri was to co-create a new yarn called Perleull. This yarn is a blend of Norwegian wool and silk, designed to be soft, warm, and suitable for various knitting projects. It its the yarn used for the Oslo Mitten.",
+      "teaserDescription": "A traditional Selbu mitten design created for Oslo Mikrospinneri. The mitten features a stylized 'O' in the hand to represent Oslo, combining classic Norwegian patterning with modern identity.",
+      "description": "A traditional Selbu mitten pattern designed with a unique twist—a stylized 'O' for Oslo incorporated into the palm. This project aimed to blend Norwegian heritage with a modern identity. I was also involved in the creation of the yarn itself, developing the spin and ply that give it its distinctive look and feel. Yarn manufacturing is a field that requires both patience and a fair bit of math—and it's probably my favorite part of the process.",
       "year": 2022
     }
   ]
